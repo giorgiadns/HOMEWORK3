@@ -1,0 +1,87 @@
+<?php 
+
+error_reporting(E_ALL &~E_NOTICE);
+
+session_start();
+
+if (!isset($_SESSION['accessopermesso'])){
+	header('Location:login.php');
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Guardiani della galassia</title>
+	<link rel="stylesheet" href="marvel.css" type="text/css" />
+	<style>
+	@import url('https://fonts.cdnfonts.com/css/heroes-assemble');
+	</style>
+</head>
+
+<body style="background-image:url('./immagini/galassia.jpg');background-attachment:fixed;background-size:cover;background-repeat:no-repeat;">
+	
+	<div style="border-radius:15px;width:80%;background-color:magenta;">
+	<img src="./immagini/guardianidellagalassia.jpg" width="100%" height="100%" style="align:center;"/>
+	</div>
+	
+	<div style='width:40%;margin-top:10px;background-color:white;border-radius:15px;padding:0 0 0 0;'>
+	<a href="film.php" style="width:100%;">
+	<button class="button" style="font-family:Heroes Assemble, sans serif;width:100%;border-radius:15px;">Indietro</button></a>
+	</div>
+
+	<div style='justify-content:center;border:2px solid magenta;margin-top:10px;border-radius:15px;height:35%;width:80%;background-size:100%;background-color:white;'>
+	<table>
+	<tr>
+	<td style='text-align:center;' colspan='4'>
+	<h1 style="font-family:Heroes Assemble, sans serif; color:magenta;font-size:50px;">THE GUARDIANS ARE COMING BACK</h1>
+	</td>
+	</tr>
+	<tr>
+	<td style='text-align:center;' colspan='4'>
+	<h1 style="font-family:times new roman;color:gray;font-size:15px;">Dal 3 maggio al cinema</h1>
+	</td>
+	</tr>
+	<tr>
+	<td style="padding-right:20px;">
+	<img src="./immagini/starlord.jpg"  height="300px" style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));"/>
+	</td>
+	<td style="padding-right:30px;">
+	<img src="./immagini/gamora.jpg" height="300px" style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));"/>
+	</td>
+	<td style="padding-right:30px;">
+	<img src="./immagini/rocket-.jpg" height="300px" style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));"/>
+	</td>
+	</td>
+	<td style="padding-right:30px;">
+	<img src="./immagini/drax.jpg" height="300px" style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));"/>
+	</td>
+	</tr>
+	<tr>
+	<td style="padding-right:30px;padding-top:20px;">
+	<img src="./immagini/groot.jpg" height="300px" style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));"/>
+	</td>
+	<td style="padding-right:30px;padding-top:20px;">
+	<img src="./immagini/mantis.jpg" height="300px" style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));"/>
+	</td>
+	<td style="padding-right:30px;padding-top:20px;">
+	<img src="./immagini/nebula.jpg" height="300px"style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));" />
+	</td>
+	<td style="padding-right:30px;padding-top:20px;">
+	<img src="./immagini/kraglin.jpg" height="300px"style="filter: drop-shadow(0.6rem 0.6rem 0.6rem 	rgba(191, 85, 236, 1));" />
+	</td>
+	</tr>
+	<tr>
+	<td style='text-align:center;padding-top:40px;' colspan='4'>
+	<h1 style="font-family:Heroes Assemble, sans serif;;color:magenta;font-size:35px;">GUARDA IL TRAILER</h1>
+	</td>
+	</tr>
+	<tr>
+	<td style='text-align:center;padding-top:20px;' colspan='4'>
+	<iframe width='900' height='500' src='https://www.youtube.com/embed/yrsVzqqX4Qk?autoplay=1&mute=1' style="filter: drop-shadow(0 0 0.75rem 	rgba(191, 85, 236, 1));"></iframe>
+	</td>
+	</tr>
+	</table>
+	
+</body>
+</html>

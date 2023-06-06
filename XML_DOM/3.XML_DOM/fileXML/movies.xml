@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "movies.dtd">
+<?xml-stylesheet type="text/css" href="movies.css"?>
+
+<movies>
+
+<film>
+<id>1</id>
+<titolo>Iron Man</titolo>
+<anno>2008</anno>
+<durata>2h 6m</durata>
+<trama>Il miliardario Tony Stark, magnate di un impero tecnologico che sviluppa anche armi per l'esercito americano, è in visita in Afghanistan per mostrare alle truppe statunitensi un nuovo prototipo di missile. 
+Qui viene catturato in agguato nel quale rimane gravemente ferito e un suo compagno di prigionia gli impianta nel petto un elettromagnete, inizialmente alimentato da una batteria per auto, per farlo sopravvivere.
+ Riuscito a scampare indenne,a differenza del suo collega, alla reclusione dei terroristi e a far ritorno a casa, Stark decide di chiudere la produzione bellica e costruire un'armatura avveniristica, trasformandosi nel supereroe Iron Man.
+ Dove tutto ebbe inizio, il film che ha definitivamente consacrato l'universo cinematografico Marvel al grande pubblico con uno dei suoi personaggi simbolo, magnificamente interpretato con aria sbruffona e carismatica da Robert Downey Jr.
+</trama>
+<link>https://www.youtube.com/embed/hJc2YALCHdc</link>
+</film>
+
+<film>
+<id>2</id>
+<titolo>L'incredibile Hulk</titolo>
+<anno>2008</anno>
+<durata>1h 52m</durata>
+<trama>Bruce Banner è rimasto vittima di un esperimento durante il quale è stato esposto ai raggi gamma, 
+che lo trasformano nei momenti di rabbia in un gigantesco mostro verde dalla furia incontenibile. 
+Lo scienziato si è rifugiato da ormai cinque anni in una favela brasiliana dove sta cercando un antidoto per curare la sua condizione, nella speranza di potersi poi finalmente riconciliare con l'amata Betty. 
+Ma il padre della ragazza, l'integerrimo generale Ross, è sulle sue tracce e guida un team dell'esercito per catturarlo il prima possibile.
+ Cacciato, Bruce sarà costretto a trasformarsi nuovamente nell'incredibile Hulk.</trama>
+<link>https://www.youtube.com/embed/xbqNb2PFKKA</link>
+</film>
+
+<film>
+<id>3</id>
+<titolo>Thor</titolo>
+<anno>2011</anno>
+<durata>1h 54m</durata>
+<trama>Dopo che le sue azioni sconsiderate hanno riacceso un'antica guerra,
+ il dio nordico Thor viene spogliato dei propri poteri, scacciato dal regno di Asgard, 
+ e costretto a vivere tra gli umani.</trama>
+ <link>https://www.youtube.com/embed/6L5Vdq0t2ZQ</link>
+</film>
+
+<film>
+<id>4</id>
+<titolo>Captain America: il primo vendicatore</titolo>
+<anno>2011</anno>
+<durata>2h 14m</durata>
+<trama>Steve è un giovanotto smilzo che vuole ad ogni costo arruolarsi nell'esercito per  combattere i nazisti. Putroppo viene regolarmente scartato, ma un giorno gli si presenta la possibilità di fare da cavia: gli iniettano così il siero del supersoldato.</trama>
+<link>https://www.youtube.com/embed/SLAOydzIbpo</link>
+</film>
+
+<film>
+<id>5</id>
+<titolo>Avengers</titolo>
+<anno>2012</anno>
+<durata>2h 23m</durata>
+<trama>I leggendari supereroi Iron Man, Hulk, Thor, Capitan America, Occhio di Falco e la Vedova Nera vengono reclutati da un'agenzia governativa segreta per combattere  un nemico inatteso che minaccia la sicurezza della Terra.</trama>
+<link>https://www.youtube.com/embed/21-RSDPmLjg</link>
+</film>
+
+<film>
+<id>6</id>
+<titolo>Iron Man 3</titolo>
+<anno>2013</anno>
+<durata>2h 10m</durata>
+<trama>Dopo aver salvato New York dalla distruzione ed essere rimasto da allora insonne e preoccupato, Tony Stark è rimasto senza armatura e deve lottare contro le sue paure interiori per sconfiggere il suo nuovo nemico, il Mandarino.</trama>
+<link>https://www.youtube.com/embed/Pz1aiadrOTE</link>
+</film>
+
+<film>
+<id>7</id>
+<titolo>Thor: The Dark World</titolo>
+<anno>2013</anno>
+<durata>1h 52m</durata>
+<trama>Dal personaggio della Marvel, Thor si allea con il perfido Loki per salvare la Terra dei Nove Regni da un antico nemico nato prima ancora dell'universo.</trama>
+<link>https://www.youtube.com/embed/gIBSuYgRIm0</link>
+</film>
+
+<film>
+<id>8</id>
+<titolo>Captain America: The Winter Soldier</titolo>
+<anno>2014</anno>
+<durata>2h 16m</durata>
+<trama>Capitan America, Vedova Nera e un nuovo alleato, Falcon, affrontano un nemico inaspettato mentre lottano per far emergere alla luce del sole un complotto  che mette a rischio il mondo intero.</trama>
+<link>https://www.youtube.com/embed/LEOzOUTIYnk</link>
+</film>
+
+<film>
+<id>9</id>
+<titolo>Guardiani della galassia</titolo>
+<anno>2014</anno>
+<durata>2h 2m</durata>
+<trama>Un avventuriero spaziale, Brash Peter Quill, diventa preda di alcuni cacciatori  di taglie dopo aver rubato una sfera ambita dal potente Ronan. Per sfuggire alla morte, l'uomo si allea con quattro improbabili compagni di avventura.</trama>
+<link>https://www.youtube.com/embed/PYcgR4iP8r8</link>
+</film>
+
+<film>
+<id>10</id>
+<titolo>Avengers: Age of Ultron</titolo>
+<anno>2015</anno>
+<durata>2h 21m</durata>
+<trama>Gli Avengers si ricongiungono allo scopo di unire le proprie forze a quelle dei nuovi arrivati Quicksilver e Scarlet. Il fine è la lotta contro il robot malefico chiamato Ultron, creato  da Tony Stark con intenzioni pacifiche ma trasformato in una macchina infernale assetata  di sangue.</trama>
+<link>https://www.youtube.com/embed/15Htr6Vsjuo</link>
+</film>
+</movies>

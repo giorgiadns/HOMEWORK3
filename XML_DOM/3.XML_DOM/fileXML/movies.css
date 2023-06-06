@@ -1,0 +1,43 @@
+movies {
+ display: block;
+ border: solid thick magenta;
+ padding: 1% 5% 5% 5%;
+ color: black;
+ font-size: 120%;
+ margin: 2ex 1em 0 1em;
+}
+
+
+film{
+ display:block;
+ width: 90%;
+ border: solid thick pink;
+ margin-left: 5%;
+ margin-top: 5%;
+ padding: 10px;
+
+}
+
+titolo { 
+ display:inline;
+ font-family:Arial;
+ color:red;
+ font-size:smaller;
+ font-weight:bold;
+}
+
+anno {
+ font-family:Times New Roman, serif;
+}
+
+durata {
+ font-style: oblique;
+}
+trama {
+ font-style: oblique;
+ color:green;
+}
+link {
+ font-style: oblique;
+ color:magenta;
+}

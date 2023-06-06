@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT movies (record+)>
+<!ELEMENT film (id,titolo, durata ,trama)>
+<!ELEMENTid (#PCDATA)>
+<!ELEMENTtitolo (#PCDATA)>
+<!ELEMENTdurata (#PCDATA)>
+<!ELEMENTtrama (#PCDATA)>
+
